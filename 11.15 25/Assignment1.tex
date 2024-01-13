@@ -66,25 +66,24 @@ A SONAR system fixed in a submarine operates at a frequency 40.0 kHz. An enemy s
    \hline
    Parameter & Description & Value\\
    \hline
-   V & Speed of sound in water & 1450m/s\\
+   $V $& Speed of sound in water & 1450m/s\\
    \hline 
    $V_e$ & Speed of enemy submarine & 100m/s\\
    \hline 
-   f & Frequency of SONAR wave & 40kHz\\ 
+   $Vrel$ & Relative velocity between both submarine & 1550m/s\\
    \hline
-   y(x,t) & Equation of SONAR wave & $A\sin(2\pi*ft-\frac{2\pi}{\lambda}x)$\\
+   $f $& Frequency of SONAR wave & 40kHz\\ 
+   \hline
+   $y(x,t)$ & Equation of SONAR wave & $A\sin(2\pi ft-\frac{2\pi}{\lambda}x+\phi)$\\
    \hline
    $\lambda$ & Wavelength of SONAR wave & 3.625cm\\
     \hline
-    f' & Frequency observed by enemy submarine & 42.76kHz\\
+   $ f' $& Frequency observed by enemy submarine & 42.76kHz\\
    \hline
    $\lambda_2$ & Wavelength of reflected wave & 3.157cm\\
    \hline 
-   $ y_2(x,t)$ & Equation of reflected wave & $A\sin(2\pi*f''t-\frac{2\pi}{\lambda_2}x)$\\
+  $ y_2(x,t)$ & Equation of reflected wave as observed from submarine& $A\sin(2\pi*f''t-\frac{2\pi}{\lambda_2}x+\phi)$\\
    \hline
-    
-
-   
 \end{tabular}   
 \\
 \\
@@ -123,5 +122,7 @@ f''&=V/\lambda_2\\
    \hline
    
 \end{tabular}
+
+\end{document}
 
 \end{document}
